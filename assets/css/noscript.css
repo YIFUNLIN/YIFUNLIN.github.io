@@ -35,3 +35,15 @@
 		opacity: 1;
 		margin: 4rem 0 0 0;
 	}
+
+	.icon {
+		font-size: 24px; /* 或其他您想要的尺寸 */
+		padding: 0.5em;
+		color: black; /* 或任何颜色 */
+	  }
+	  
+	  /* 用于图标的悬停效果 */
+	  .icon:hover {
+		color: gray; /* 或当鼠标悬停时的任何颜色 */
+	  }
+	  
