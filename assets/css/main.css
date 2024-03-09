@@ -634,7 +634,7 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
-		
+
 		/* Enlarging the Font Awesome Icons */
 		.fab {
 			font-size: 36px; /* Adjust the size as needed */
@@ -1611,6 +1611,39 @@ input, select, textarea {
 				#main article .close:active:before {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
+				
+				  .article-list {
+					/* 根据需要调整样式 */
+				  }
+				  
+				  .article-item {
+					margin-bottom: 20px; /* 每个文章条目之间的空间 */
+				  }
+				  
+				  .article-title {
+					font-size: 1.5em; /* 标题字体大小 */
+					color: #f4f4f4; /* 标题字体颜色，根据需要调整 */
+					text-decoration: none; /* 去除下划线 */
+				  }
+				  
+				  .article-title:hover {
+					text-decoration: underline; /* 鼠标悬停时添加下划线 */
+				  }
+				  
+				  .article-meta {
+					font-size: 0.9em; /* 元数据字体大小 */
+					color: #ba30a6; /* 元数据字体颜色，根据需要调整 */
+				  }
+				  
+				  .tag {
+					background-color: #eee; /* 标签背景色 */
+					padding: 2px 6px; /* 标签内间距 */
+					margin-right: 5px; /* 标签之间的距离 */
+					border-radius: 3px; /* 圆角边框 */
+				  }
+				  
+
+
 
 		@media screen and (max-width: 736px) {
 
