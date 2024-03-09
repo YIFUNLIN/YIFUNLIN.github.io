@@ -634,7 +634,20 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
-
+		
+		/* Enlarging the Font Awesome Icons */
+		.fab {
+			font-size: 36px; /* Adjust the size as needed */
+			color: #ffffff; /* Example color */
+		}
+		
+		/* Removing the borders */
+		/* You'll need to replace .icon-container with the actual class or ID of the element that contains your icons */
+		.icon-container {
+			border: none; /* This removes the border */
+			background: none; /* This removes any background if not needed */
+		}
+  
 /* Image */
 
 	.image {
@@ -1140,9 +1153,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
