@@ -45,7 +45,15 @@ blockquote, q {
 		content: '';
 		content: none;
 	}
-
+	input[type="date"] {
+		background-color: white; /* Ensures the background is white */
+		color: black; /* Ensures the text color is black */
+	}
+	
+	input[type="date"]:focus {
+		background-color: lightgray; /* Change background when focused */
+	}
+	
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
