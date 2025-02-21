@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>林羿帆 - 個人網站</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" defer>
+  <style>
+    body { font-size: 14px; font-family: "微軟正黑體"; }
+    #main article { display: none; } /* 初始隱藏內容 */
+    #main article.loaded { display: block; } /* 載入完成後顯示 */
+    .back-btn { margin-top: 20px; text-align: center; }
+    .back-btn a { padding: 10px 20px; background: #f56a6a; color: white; text-decoration: none; border-radius: 5px; }
+    .back-btn a:hover { background: #d9534f; }
+  </style>
+</head>
+<body class="is-preload">
+  <!-- Wrapper -->
+  <div id="wrapper">
+    <!-- Header -->
+    <header id="header">
+      <div class="logo"><span class="icon fa-gem"></span></div>
+      <div class="content">
+        <div class="inner">
+          <h1>林羿帆</h1>
+          <p>個人網站</p>
+          <nav>
+            <div class="busuanzi-count" style="font-size: 16px; margin-top: 10px;">
+              總瀏覽次數：<span id="busuanzi_value_site_pv">0</span>
+            </div>
+            <ul>
+              <li><a href="https://github.com/YIFUNLIN" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/lin-yi-fan-293082257/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="https://www.instagram.com/yifan00802/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#study">Study</a></li> <!-- 修正為 #study -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+      <article id="intro"></article>
+      <article id="work"></article>
+      <article id="study"></article>
+      <article id="contact"></article>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p class="copyright">© Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+    </footer>
+  </div>
+
+  <!-- BG -->
+  <div id="bg"></div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js" defer></script>
+  <script src="assets/js/browser.min.js" defer></script>
+  <script src="assets/js/breakpoints.min.js" defer></script>
+  <script src="assets/js/util.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script>
+    // 異步載入內容並提升效能
+    const sections = ['intro', 'work', 'study', 'contact'];
+    sections.forEach(section => {
+      fetch(`${section}.html`)
+        .then(response => response.text())
+        .then(data => {
+          const element = document.querySelector(`#${section}`);
+          element.innerHTML = data + '<div class="back-btn"><a href="#" onclick="window.location.hash=\'\'; return false;">返回主頁</a></div>'; // 添加返回鍵
+          element.classList.add('loaded');
+        })
+        .catch(error => console.error(`載入 ${section}.html 失敗:`, error));
+    });
+
+    // YouTube 影片載入函數
+    function loadYouTubeVideo() {
+      const placeholder = document.querySelector('.video-placeholder');
+      if (placeholder) {
+        placeholder.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/OMriIpx9Q_Y?autoplay=1" 
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen loading="lazy"></iframe>`;
+      }
+    }
+
+    // 優化頁面載入
+    window.addEventListener('load', () => {
+      document.body.classList.remove('is-preload');
+    });
+  </script>
+</body>
+</html>
