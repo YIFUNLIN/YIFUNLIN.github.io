@@ -2,66 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 林羿帆-個人網站</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://yifunlin.github.io/categories/</link>
     <description>Recent content in Categories on 林羿帆-個人網站</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jul 2025 01:45:47 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Jul 2025 02:07:47 +0800</lastBuildDate>
+    <atom:link href="https://yifunlin.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Language</title>
+      <link>https://yifunlin.github.io/categories/go-language/</link>
+      <pubDate>Tue, 22 Jul 2025 02:07:47 +0800</pubDate>
+      <guid>https://yifunlin.github.io/categories/go-language/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Tools Study</title>
-      <link>http://localhost:1313/categories/tools-study/</link>
+      <link>https://yifunlin.github.io/categories/tools-study/</link>
       <pubDate>Mon, 21 Jul 2025 01:45:47 +0800</pubDate>
-      <guid>http://localhost:1313/categories/tools-study/</guid>
+      <guid>https://yifunlin.github.io/categories/tools-study/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Design</title>
-      <link>http://localhost:1313/categories/web-design/</link>
+      <link>https://yifunlin.github.io/categories/web-design/</link>
       <pubDate>Tue, 17 Jun 2025 19:30:47 +0800</pubDate>
-      <guid>http://localhost:1313/categories/web-design/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>http://localhost:1313/categories/ai/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:1313/categories/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Go Language</title>
-      <link>http://localhost:1313/categories/go-language/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:1313/categories/go-language/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>HTML</title>
-      <link>http://localhost:1313/categories/html/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:1313/categories/html/</guid>
+      <guid>https://yifunlin.github.io/categories/web-design/</guid>
       <description></description>
     </item>
     <item>
       <title>HTMl CSS</title>
-      <link>http://localhost:1313/categories/html-css/</link>
+      <link>https://yifunlin.github.io/categories/html-css/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:1313/categories/html-css/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming Language</title>
-      <link>http://localhost:1313/categories/programming-language/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:1313/categories/programming-language/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:1313/categories/python/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:1313/categories/python/</guid>
+      <guid>https://yifunlin.github.io/categories/html-css/</guid>
       <description></description>
     </item>
   </channel>
