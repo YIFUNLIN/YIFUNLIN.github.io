@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 林羿帆-個人網站</title>
+    <link>https://yifunlin.github.io/tags/</link>
+    <description>Recent content in Tags on 林羿帆-個人網站</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jul 2025 01:45:47 +0800</lastBuildDate>
+    <atom:link href="https://yifunlin.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://yifunlin.github.io/tags/ai/</link>
+      <pubDate>Mon, 21 Jul 2025 01:45:47 +0800</pubDate>
+      <guid>https://yifunlin.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game</title>
+      <link>https://yifunlin.github.io/tags/game/</link>
+      <pubDate>Mon, 21 Jul 2025 01:45:47 +0800</pubDate>
+      <guid>https://yifunlin.github.io/tags/game/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Photos</title>
+      <link>https://yifunlin.github.io/tags/photos/</link>
+      <pubDate>Mon, 21 Jul 2025 01:45:47 +0800</pubDate>
+      <guid>https://yifunlin.github.io/tags/photos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://yifunlin.github.io/tags/python/</link>
+      <pubDate>Mon, 21 Jul 2025 01:45:47 +0800</pubDate>
+      <guid>https://yifunlin.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React</title>
+      <link>https://yifunlin.github.io/tags/react/</link>
+      <pubDate>Mon, 21 Jul 2025 01:45:47 +0800</pubDate>
+      <guid>https://yifunlin.github.io/tags/react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New</title>
+      <link>https://yifunlin.github.io/tags/new/</link>
+      <pubDate>Tue, 17 Jun 2025 19:30:47 +0800</pubDate>
+      <guid>https://yifunlin.github.io/tags/new/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Agent</title>
+      <link>https://yifunlin.github.io/tags/ai-agent/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <guid>https://yifunlin.github.io/tags/ai-agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTML</title>
+      <link>https://yifunlin.github.io/tags/html/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <guid>https://yifunlin.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MCP</title>
+      <link>https://yifunlin.github.io/tags/mcp/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <guid>https://yifunlin.github.io/tags/mcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RAG</title>
+      <link>https://yifunlin.github.io/tags/rag/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <guid>https://yifunlin.github.io/tags/rag/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 林羿帆-個人網站</title>
+    <link>https://yifunlin.github.io/categories/</link>
+    <description>Recent content in Categories on 林羿帆-個人網站</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jul 2025 01:45:47 +0800</lastBuildDate>
+    <atom:link href="https://yifunlin.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools Study</title>
+      <link>https://yifunlin.github.io/categories/tools-study/</link>
+      <pubDate>Mon, 21 Jul 2025 01:45:47 +0800</pubDate>
+      <guid>https://yifunlin.github.io/categories/tools-study/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Design</title>
+      <link>https://yifunlin.github.io/categories/web-design/</link>
+      <pubDate>Tue, 17 Jun 2025 19:30:47 +0800</pubDate>
+      <guid>https://yifunlin.github.io/categories/web-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://yifunlin.github.io/categories/ai/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <guid>https://yifunlin.github.io/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go Language</title>
+      <link>https://yifunlin.github.io/categories/go-language/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <guid>https://yifunlin.github.io/categories/go-language/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTML</title>
+      <link>https://yifunlin.github.io/categories/html/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <guid>https://yifunlin.github.io/categories/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTMl CSS</title>
+      <link>https://yifunlin.github.io/categories/html-css/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <guid>https://yifunlin.github.io/categories/html-css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming Language</title>
+      <link>https://yifunlin.github.io/categories/programming-language/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <guid>https://yifunlin.github.io/categories/programming-language/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://yifunlin.github.io/categories/python/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <guid>https://yifunlin.github.io/categories/python/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

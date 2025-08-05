@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>事件驅動 on 林羿帆-個人網站</title>
+    <link>http://localhost:50829/tags/%E4%BA%8B%E4%BB%B6%E9%A9%85%E5%8B%95/</link>
+    <description>Recent content in 事件驅動 on 林羿帆-個人網站</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Aug 2025 11:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:50829/tags/%E4%BA%8B%E4%BB%B6%E9%A9%85%E5%8B%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Knative 無伺服器平台深度解析</title>
+      <link>http://localhost:50829/blog/knative/</link>
+      <pubDate>Mon, 04 Aug 2025 11:00:00 +0800</pubDate>
+      <guid>http://localhost:50829/blog/knative/</guid>
+      <description>&lt;h2 id=&#34;knative-簡介&#34;&gt;Knative 簡介&lt;/h2&gt;&#xA;&lt;p&gt;Knative 是建立在 Kubernetes 之上的開源平台，專為構建、部署和管理現代化的無伺服器工作負載而設計。它由 Google 與 IBM、Red Hat、SAP 等公司共同開發，現已成為 CNCF 的孵化項目。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
