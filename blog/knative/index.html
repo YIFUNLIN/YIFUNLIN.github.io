@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="目前在LINE Taiwan 擔任 Backend Engineer Intern">
+  <meta name="description" content="本文深入介紹 Knative 的核心組件 Serving 和 Eventing，探討其如何在 Kubernetes 之上構建一個強大的 Serverless 平台，實現事件驅動架構和請求驅動的自動擴展。">
   <meta name="author" content="Evan Lin">
     
   
@@ -230,17 +230,84 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         
-        <h2></h2>
+        <a href="/categories/%e6%8a%80%e8%a1%93%e5%ad%b8%e7%bf%92"
+          class="text-primary">技術學習</a>
+        
+        <a href="/categories/cloud-native"
+          class="text-primary">Cloud native</a>
+        
+        <h2>Knative 深度解析：在 Kubernetes 上實現 Serverless</h2>
         <div class="mb-3 post-meta">
           <span>By Evan Lin</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>01 January 0001</span>
+          <span>05 August 2025</span>
           
         </div>
         
         <div class="content mb-5">
-          
+          <p>在了解了 Kubernetes 的基礎架構後，這次我們來探討一個建立在其之上的強大 Serverless 框架：Knative。它將開發者從繁瑣的基礎設施管理中解放出來，專注於程式碼本身。</p>
+<hr>
+<h2 id="什麼是-knative">什麼是 Knative？</h2>
+<p>Knative 是一個開源的 Kubernetes 附加元件 (Add-on)，用於建構、部署和管理現代化的 Serverless 工作負載。它並非要取代 Kubernetes，而是<strong>擴展</strong> Kubernetes，提供了一組更高階的抽象化原語 (Primitives)，旨在標準化和簡化 Serverless 應用程式的開發與部署流程。</p>
+<p>其核心價值主張是：<strong>讓開發者只關心業務邏輯，而將服務的自動擴展 (Auto-scaling)、網路路由和事件觸發等複雜性交給平台處理。</strong></p>
+<hr>
+<h2 id="knative-的核心組件">Knative 的核心組件</h2>
+<p>Knative 主要由兩個獨立且可插拔的核心組件構成：</p>
+<h3 id="1-serving-服務供給">1. Serving (服務供給)</h3>
+<p>Knative Serving 的目標是部署和服務 Serverless 應用程式和函式。它最引人注目的特性是<strong>請求驅動 (Request-Driven)</strong> 的計算模型，能夠根據流量需求自動擴展 Pod 數量，甚至在沒有流量時<strong>縮容至零 (Scale to Zero)</strong>，從而極大地節省了運算資源成本。</p>
+<p><strong>主要特性：</strong></p>
+<ul>
+<li><strong>快速部署與版本管理</strong>: 每次對應用程式的程式碼或配置進行更改時，都會創建一個不可變的<strong>修訂版本 (Revision)</strong>，方便進行版本追蹤和快速回滾。</li>
+<li><strong>流量分割 (Traffic Splitting)</strong>: 能夠精確控制流向不同修訂版本的流量比例，輕鬆實現金絲雀部署 (Canary Deployments) 和藍綠部署 (Blue/Green Deployments)。</li>
+<li><strong>基於請求的自動擴展</strong>: 內建 KPA (Knative Pod Autoscaler) 元件，可根據每秒處理的併發請求數來自動增減 Pod 實例。</li>
+</ul>
+<p><strong>核心資源 (CRDs):</strong></p>
+<ul>
+<li><strong>Service (<code>ksvc</code>)</strong>: 這是開發者主要操作的頂層資源，它自動管理一個應用的 <code>Route</code> 和 <code>Configuration</code>，簡化了部署流程。</li>
+<li><strong>Route</strong>: 負責將網路端點 (URL) 映射到一個或多個 <code>Revision</code>，並定義流量分配策略。</li>
+<li><strong>Configuration</strong>: 定義了應用程式的期望狀態，包括容器映像檔、環境變數等。每次 <code>Configuration</code> 的變更都會觸發一個新的 <code>Revision</code>。</li>
+<li><strong>Revision</strong>: <code>Configuration</code> 的一個不可變的時間點快照。每個 <code>Revision</code> 都代表了一份特定的程式碼和配置組合。</li>
+</ul>
+<h3 id="2-eventing-事件驅動">2. Eventing (事件驅動)</h3>
+<p>Knative Eventing 提供了一套標準化的基礎設施，用於建構事件驅動架構。它旨在實現服務間的<strong>鬆耦合 (Loosely Coupled)</strong>，讓事件的生產者 (Producers) 和消費者 (Consumers) 彼此獨立，無需直接感知對方的存在。</p>
+<p><strong>工作流程：</strong>
+它採用了發布/訂閱 (Publish/Subscribe) 模型，事件從<strong>來源 (Source)</strong> 進入系統，被發送到一個稱為<strong>代理 (Broker)</strong> 的事件中心，然後<strong>觸發器 (Trigger)</strong> 根據過濾規則將事件分發給一個或多個目標<strong>消費者 (Sink)</strong>。</p>
+<p><strong>核心資源 (CRDs):</strong></p>
+<ul>
+<li><strong>Source</strong>: 將外部系統的事件導入 Knative 的橋樑。例如，<code>ApiServerSource</code> 可以監聽 Kubernetes API 事件，<code>KafkaSource</code> 可以從 Kafka 主題中拉取訊息。</li>
+<li><strong>Broker</strong>: 作為事件的匯集中心和訊息通道，接收事件並將其暫存，等待分發。</li>
+<li><strong>Trigger</strong>: 將 <code>Broker</code> 與事件消費者連接起來，並可以定義過濾規則 (Filter)，只有符合條件的事件才會被傳遞給目標。</li>
+<li><strong>Sink</strong>: 事件的最終目的地，可以是任何可接收 HTTP 請求的資源，最常見的就是一個 Knative Service。</li>
+</ul>
+<hr>
+<h2 id="knative-與-kubernetes-的關係">Knative 與 Kubernetes 的關係</h2>
+<p>理解它們的關係至關重要：Knative <strong>將 Kubernetes 的能力進行了封裝和簡化</strong>。</p>
+<p>當您創建一個 Knative <code>Service</code> 時，Knative 的控制器 (Controller) 會在背景將這個高階定義轉換成一系列底層的 Kubernetes 資源，例如：</p>
+<ul>
+<li><code>Deployment</code>: 用於管理 Pod。</li>
+<li><code>Service</code> (K8s Service): 用於叢集內部網路。</li>
+<li><code>Ingress</code>: 用於外部流量接入。</li>
+<li><code>HorizontalPodAutoscaler</code> (HPA): 用於標準的 CPU/記憶體擴展。</li>
+<li><code>Knative Pod Autoscaler</code> (KPA): 用於基於請求的擴展。</li>
+</ul>
+<p>開發者只需維護一份簡單的 Knative YAML 文件，Knative 就會自動處理這些複雜的底層資源配置和生命週期管理。</p>
+<hr>
+<h2 id="knative-的依賴與生態">Knative 的依賴與生態</h2>
+<ul>
+<li><strong>服務網格 (Service Mesh)</strong>: Knative Serving 的許多進階網路功能（如流量分割）依賴於底層的服務網格，例如 <strong>Istio</strong>, <strong>Linkerd</strong>, 或 <strong>Contour</strong>。Istio 是最常見的選擇。</li>
+<li><strong>CI/CD (持續整合/持續部署)</strong>: Knative 最初的 <code>Build</code> 組件已被獨立出來，發展成為一個更通用的 CI/CD 專案 <strong>Tekton</strong>。Tekton 專注於在 Kubernetes 上構建、測試和部署應用，與 Knative 能夠完美整合。</li>
+</ul>
+<hr>
+<h2 id="總結為何要用-knative">總結：為何要用 Knative？</h2>
+<ul>
+<li><strong>提升開發者體驗</strong>: 將基礎設施複雜性抽象化，讓開發者能更專注於業務邏輯。</li>
+<li><strong>極致的成本效益</strong>: 「縮容至零」特性確保閒置的應用不消耗任何計算資源。</li>
+<li><strong>標準化與可移植性</strong>: 基於 Kubernetes，不被任何雲端廠商鎖定，可在任何標準的 K8s 叢集上運行。</li>
+<li><strong>強大的事件驅動能力</strong>: 為構建現代化的異步、鬆耦合微服務架構提供了堅實的基礎。</li>
+</ul>
+<p>總之，Knative 結合了 Serverless 的簡易性、事件驅動的靈活性以及 Kubernetes 的強大功能和可控性，是雲端原生時代下構建現代化應用的理想平台。</p>
+
         </div>
 
         

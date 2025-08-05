@@ -2,40 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yifunlin.github.io/tags/ai/</loc>
-    <lastmod>2025-07-21T01:45:47+08:00</lastmod>
-  </url><url>
     <loc>https://yifunlin.github.io/categories/</loc>
-    <lastmod>2025-07-21T01:45:47+08:00</lastmod>
+    <lastmod>2025-08-05T02:27:00+08:00</lastmod>
   </url><url>
-    <loc>https://yifunlin.github.io/tags/game/</loc>
-    <lastmod>2025-07-21T01:45:47+08:00</lastmod>
+    <loc>https://yifunlin.github.io/categories/cloud-native/</loc>
+    <lastmod>2025-08-05T02:27:00+08:00</lastmod>
   </url><url>
-    <loc>https://yifunlin.github.io/blog/mem0/</loc>
-    <lastmod>2025-07-21T01:45:47+08:00</lastmod>
+    <loc>https://yifunlin.github.io/tags/event-driven/</loc>
+    <lastmod>2025-08-05T02:27:00+08:00</lastmod>
   </url><url>
-    <loc>https://yifunlin.github.io/tags/photos/</loc>
-    <lastmod>2025-07-21T01:45:47+08:00</lastmod>
+    <loc>https://yifunlin.github.io/tags/k8s/</loc>
+    <lastmod>2025-08-05T02:27:00+08:00</lastmod>
   </url><url>
-    <loc>https://yifunlin.github.io/tags/python/</loc>
-    <lastmod>2025-07-21T01:45:47+08:00</lastmod>
+    <loc>https://yifunlin.github.io/tags/knative/</loc>
+    <lastmod>2025-08-05T02:27:00+08:00</lastmod>
   </url><url>
-    <loc>https://yifunlin.github.io/tags/react/</loc>
-    <lastmod>2025-07-21T01:45:47+08:00</lastmod>
+    <loc>https://yifunlin.github.io/blog/knative/</loc>
+    <lastmod>2025-08-05T02:27:00+08:00</lastmod>
+  </url><url>
+    <loc>https://yifunlin.github.io/tags/serverless/</loc>
+    <lastmod>2025-08-05T02:27:00+08:00</lastmod>
   </url><url>
     <loc>https://yifunlin.github.io/tags/</loc>
-    <lastmod>2025-07-21T01:45:47+08:00</lastmod>
+    <lastmod>2025-08-05T02:27:00+08:00</lastmod>
   </url><url>
-    <loc>https://yifunlin.github.io/categories/tools-study/</loc>
-    <lastmod>2025-07-21T01:45:47+08:00</lastmod>
+    <loc>https://yifunlin.github.io/categories/%E6%8A%80%E8%A1%93%E5%AD%B8%E7%BF%92/</loc>
+    <lastmod>2025-08-05T02:27:00+08:00</lastmod>
   </url><url>
     <loc>https://yifunlin.github.io/</loc>
-    <lastmod>2025-07-21T01:45:47+08:00</lastmod>
+    <lastmod>2025-08-05T02:27:00+08:00</lastmod>
   </url><url>
-    <loc>https://yifunlin.github.io/blog/post-3/</loc>
+    <loc>https://yifunlin.github.io/tags/devops/</loc>
+    <lastmod>2025-08-05T01:59:00+08:00</lastmod>
+  </url><url>
+    <loc>https://yifunlin.github.io/tags/docker/</loc>
+    <lastmod>2025-08-05T01:59:00+08:00</lastmod>
+  </url><url>
+    <loc>https://yifunlin.github.io/tags/kubernetes/</loc>
+    <lastmod>2025-08-05T01:59:00+08:00</lastmod>
+  </url><url>
+    <loc>https://yifunlin.github.io/blog/k8s/</loc>
+    <lastmod>2025-08-05T01:59:00+08:00</lastmod>
+  </url><url>
+    <loc>https://yifunlin.github.io/tags/%E9%9B%B2%E7%AB%AF%E5%8E%9F%E7%94%9F/</loc>
+    <lastmod>2025-08-05T01:59:00+08:00</lastmod>
+  </url><url>
+    <loc>https://yifunlin.github.io/blog/tech_fresh/</loc>
+    <lastmod>2025-06-17T19:30:47+08:00</lastmod>
+  </url><url>
+    <loc>https://yifunlin.github.io/tags/game/</loc>
     <lastmod>2025-06-17T19:30:47+08:00</lastmod>
   </url><url>
     <loc>https://yifunlin.github.io/tags/new/</loc>
+    <lastmod>2025-06-17T19:30:47+08:00</lastmod>
+  </url><url>
+    <loc>https://yifunlin.github.io/tags/photos/</loc>
+    <lastmod>2025-06-17T19:30:47+08:00</lastmod>
+  </url><url>
+    <loc>https://yifunlin.github.io/tags/python/</loc>
+    <lastmod>2025-06-17T19:30:47+08:00</lastmod>
+  </url><url>
+    <loc>https://yifunlin.github.io/tags/react/</loc>
     <lastmod>2025-06-17T19:30:47+08:00</lastmod>
   </url><url>
     <loc>https://yifunlin.github.io/categories/web-design/</loc>
@@ -52,72 +79,5 @@
   </url><url>
     <loc>https://yifunlin.github.io/search/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/categories/ai/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/tags/ai-agent/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/categories/go-language/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/blog/post-11/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/blog/post-12/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/blog/post-13/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/blog/post-4/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/blog/post-5/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/blog/post-6/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/blog/post-7/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/blog/post-8/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/blog/post-9/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/categories/html/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/tags/html/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/categories/html-css/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/tags/mcp/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/blog/post-10/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/blog/post-2/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/categories/programming-language/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/categories/python/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/tags/rag/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/blog/k8s/</loc>
-  </url><url>
-    <loc>https://yifunlin.github.io/blog/knative/</loc>
   </url>
 </urlset>

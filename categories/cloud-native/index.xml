@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud Native on 林羿帆-個人網站</title>
+    <link>https://yifunlin.github.io/categories/cloud-native/</link>
+    <description>Recent content in Cloud Native on 林羿帆-個人網站</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Aug 2025 02:27:00 +0800</lastBuildDate>
+    <atom:link href="https://yifunlin.github.io/categories/cloud-native/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Knative 深度解析：在 Kubernetes 上實現 Serverless</title>
+      <link>https://yifunlin.github.io/blog/knative/</link>
+      <pubDate>Tue, 05 Aug 2025 02:27:00 +0800</pubDate>
+      <guid>https://yifunlin.github.io/blog/knative/</guid>
+      <description>&lt;p&gt;在了解了 Kubernetes 的基礎架構後，這次我們來探討一個建立在其之上的強大 Serverless 框架：Knative。它將開發者從繁瑣的基礎設施管理中解放出來，專注於程式碼本身。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;什麼是-knative&#34;&gt;什麼是 Knative？&lt;/h2&gt;&#xA;&lt;p&gt;Knative 是一個開源的 Kubernetes 附加元件 (Add-on)，用於建構、部署和管理現代化的 Serverless 工作負載。它並非要取代 Kubernetes，而是&lt;strong&gt;擴展&lt;/strong&gt; Kubernetes，提供了一組更高階的抽象化原語 (Primitives)，旨在標準化和簡化 Serverless 應用程式的開發與部署流程。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

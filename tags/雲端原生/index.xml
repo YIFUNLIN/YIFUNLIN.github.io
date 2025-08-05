@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>雲端原生 on 林羿帆-個人網站</title>
-    <link>http://localhost:50829/tags/%E9%9B%B2%E7%AB%AF%E5%8E%9F%E7%94%9F/</link>
+    <link>https://yifunlin.github.io/tags/%E9%9B%B2%E7%AB%AF%E5%8E%9F%E7%94%9F/</link>
     <description>Recent content in 雲端原生 on 林羿帆-個人網站</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Aug 2025 11:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:50829/tags/%E9%9B%B2%E7%AB%AF%E5%8E%9F%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Aug 2025 01:59:00 +0800</lastBuildDate>
+    <atom:link href="https://yifunlin.github.io/tags/%E9%9B%B2%E7%AB%AF%E5%8E%9F%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Knative 無伺服器平台深度解析</title>
-      <link>http://localhost:50829/blog/knative/</link>
-      <pubDate>Mon, 04 Aug 2025 11:00:00 +0800</pubDate>
-      <guid>http://localhost:50829/blog/knative/</guid>
-      <description>&lt;h2 id=&#34;knative-簡介&#34;&gt;Knative 簡介&lt;/h2&gt;&#xA;&lt;p&gt;Knative 是建立在 Kubernetes 之上的開源平台，專為構建、部署和管理現代化的無伺服器工作負載而設計。它由 Google 與 IBM、Red Hat、SAP 等公司共同開發，現已成為 CNCF 的孵化項目。&lt;/p&gt;</description>
+      <title>Kubernetes (K8s) 入門筆記</title>
+      <link>https://yifunlin.github.io/blog/k8s/</link>
+      <pubDate>Tue, 05 Aug 2025 01:59:00 +0800</pubDate>
+      <guid>https://yifunlin.github.io/blog/k8s/</guid>
+      <description>&lt;p&gt;今天要分享的是我先前整理的 Kubernetes (K8s) 入門筆記，希望能幫助大家快速上手這個強大的容器編排工具。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;k8s-核心元件&#34;&gt;K8s 核心元件&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Node&lt;/strong&gt;: 一個 Node 就是一台實體伺服器或虛擬機，是 K8s 工作負載的運行基礎，可運行一個或多個 Pod。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

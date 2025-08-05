@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>API on 林羿帆-個人網站</title>
+    <link>http://localhost:1313/tags/api/</link>
+    <description>Recent content in API on 林羿帆-個人網站</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Aug 2025 22:45:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API 深度解析：從核心概念到 Spring Boot 實戰</title>
+      <link>http://localhost:1313/blog/api/</link>
+      <pubDate>Tue, 05 Aug 2025 22:45:00 +0800</pubDate>
+      <guid>http://localhost:1313/blog/api/</guid>
+      <description>&lt;p&gt;今天要分享的是我先前整理的 API 深度解析文章，從核心概念講起，深入到不同的架構風格、安全性、設計實務，並以 Spring Boot 和 Kotlin 為例，提供一份從零開始建構與呼叫 API 的完整實戰指南，希望能幫助大家更系統性地理解 API。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

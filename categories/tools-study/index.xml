@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools Study on 林羿帆-個人網站</title>
-    <link>https://yifunlin.github.io/categories/tools-study/</link>
+    <link>http://localhost:1313/categories/tools-study/</link>
     <description>Recent content in Tools Study on 林羿帆-個人網站</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Jul 2025 01:45:47 +0800</lastBuildDate>
-    <atom:link href="https://yifunlin.github.io/categories/tools-study/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/tools-study/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mem0 介紹</title>
-      <link>https://yifunlin.github.io/blog/mem0/</link>
+      <link>http://localhost:1313/blog/mem0/</link>
       <pubDate>Mon, 21 Jul 2025 01:45:47 +0800</pubDate>
-      <guid>https://yifunlin.github.io/blog/mem0/</guid>
+      <guid>http://localhost:1313/blog/mem0/</guid>
       <description>&lt;p&gt;嗨&lt;/p&gt;</description>
     </item>
   </channel>

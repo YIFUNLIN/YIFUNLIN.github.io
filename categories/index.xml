@@ -6,13 +6,20 @@
     <description>Recent content in Categories on 林羿帆-個人網站</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jul 2025 01:45:47 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 05 Aug 2025 02:27:00 +0800</lastBuildDate>
     <atom:link href="https://yifunlin.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tools Study</title>
-      <link>https://yifunlin.github.io/categories/tools-study/</link>
-      <pubDate>Mon, 21 Jul 2025 01:45:47 +0800</pubDate>
-      <guid>https://yifunlin.github.io/categories/tools-study/</guid>
+      <title>Cloud Native</title>
+      <link>https://yifunlin.github.io/categories/cloud-native/</link>
+      <pubDate>Tue, 05 Aug 2025 02:27:00 +0800</pubDate>
+      <guid>https://yifunlin.github.io/categories/cloud-native/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>技術學習</title>
+      <link>https://yifunlin.github.io/categories/%E6%8A%80%E8%A1%93%E5%AD%B8%E7%BF%92/</link>
+      <pubDate>Tue, 05 Aug 2025 02:27:00 +0800</pubDate>
+      <guid>https://yifunlin.github.io/categories/%E6%8A%80%E8%A1%93%E5%AD%B8%E7%BF%92/</guid>
       <description></description>
     </item>
     <item>
@@ -20,48 +27,6 @@
       <link>https://yifunlin.github.io/categories/web-design/</link>
       <pubDate>Tue, 17 Jun 2025 19:30:47 +0800</pubDate>
       <guid>https://yifunlin.github.io/categories/web-design/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://yifunlin.github.io/categories/ai/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://yifunlin.github.io/categories/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Go Language</title>
-      <link>https://yifunlin.github.io/categories/go-language/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://yifunlin.github.io/categories/go-language/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>HTML</title>
-      <link>https://yifunlin.github.io/categories/html/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://yifunlin.github.io/categories/html/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>HTMl CSS</title>
-      <link>https://yifunlin.github.io/categories/html-css/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://yifunlin.github.io/categories/html-css/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming Language</title>
-      <link>https://yifunlin.github.io/categories/programming-language/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://yifunlin.github.io/categories/programming-language/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>https://yifunlin.github.io/categories/python/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://yifunlin.github.io/categories/python/</guid>
       <description></description>
     </item>
   </channel>
