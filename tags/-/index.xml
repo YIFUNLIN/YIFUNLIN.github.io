@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>-&#34; on 林羿帆-個人網站</title>
+    <link>http://localhost:1313/tags/-/</link>
+    <description>Recent content in -&#34; on 林羿帆-個人網站</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Aug 2023 13:49:23 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/-/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tronclass下載未開放的檔案與影片</title>
+      <link>http://localhost:1313/blog/terraform-copy/</link>
+      <pubDate>Thu, 03 Aug 2023 13:49:23 +0600</pubDate>
+      <guid>http://localhost:1313/blog/terraform-copy/</guid>
+      <description>&lt;h4 id=&#34;簡介&#34;&gt;簡介：&lt;/h4&gt;&#xA;&lt;p&gt;Terraform 是什麼？白話來說，它就是利用宣告式的方式，把所有需要的雲端資源，像是 VM、K8s cluster、網路設定，全部寫成程式碼方式去進行部署，可以省去學習各種雲端服務商所提供UI的時間，大幅增進開發效率！&lt;/p&gt;&#xA;&lt;p&gt;我有將這篇投稿至我們 LINE 官方的 Blog 進行分享，快來看看吧！&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

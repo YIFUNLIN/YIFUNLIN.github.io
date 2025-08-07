@@ -6,8 +6,15 @@
     <description>Recent content in blog on 林羿帆-個人網站</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Aug 2025 02:27:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Aug 2025 13:49:23 +0600</lastBuildDate>
     <atom:link href="https://yifunlin.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>從無到有：用 Terraform 與 GitOps 打造企業級 n8n 自動化流程引擎</title>
+      <link>https://yifunlin.github.io/blog/terraform/</link>
+      <pubDate>Wed, 06 Aug 2025 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/blog/terraform/</guid>
+      <description>&lt;h4 id=&#34;簡介&#34;&gt;簡介：&lt;/h4&gt;&#xA;&lt;p&gt;Terraform 是什麼？白話來說，它就是利用宣告式的方式，把所有需要的雲端資源，像是 VM、K8s cluster、網路設定，全部寫成程式碼方式去進行部署，可以省去學習各種雲端服務商所提供UI的時間，大幅增進開發效率！&lt;/p&gt;&#xA;&lt;p&gt;我有將這篇投稿至我們 LINE 官方的 Blog 進行分享，快來看看吧！&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Knative 深度解析：在 Kubernetes 上實現 Serverless</title>
       <link>https://yifunlin.github.io/blog/knative/</link>
@@ -28,6 +35,41 @@
       <pubDate>Tue, 17 Jun 2025 19:30:47 +0800</pubDate>
       <guid>https://yifunlin.github.io/blog/tech_fresh/</guid>
       <description>&lt;h3 id=&#34;演講&#34;&gt;演講&lt;/h3&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/EWUgb87MXm8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;訪談內容&#34;&gt;訪談內容&lt;/h3&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Mz_XwG_aBWs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;雖然那時候才剛加入 LINE 三個月，但很榮幸有這個機會來分享！&#xA;也很榮幸有機會能夠被訪談！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Masked-attention Mask Transformer for Universal Image Segmentation (CVPR 2022)</title>
+      <link>https://yifunlin.github.io/blog/mask_transformer/</link>
+      <pubDate>Wed, 06 Nov 2024 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/blog/mask_transformer/</guid>
+      <description>&lt;h4 id=&#34;簡介&#34;&gt;簡介：&lt;/h4&gt;&#xA;&lt;p&gt;分享一下，在資工所修課時，所報告的 paper&lt;/p&gt;&#xA;&lt;p&gt;Medium 完整版：&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://medium.com/@drose01rrr/masked-attention-mask-transformer-for-universal-image-segmentation-e14f305e433e&#34;&gt;https://medium.com/@drose01rrr/masked-attention-mask-transformer-for-universal-image-segmentation-e14f305e433e&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;[CV-1] Masked-attention Mask Transformer for Universal Image Segmentation&#xA;(CVPR 2022)&#xA;Paper Link&#xA;Github&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LINE Bot 建立 - 完整教學</title>
+      <link>https://yifunlin.github.io/blog/line_bot/</link>
+      <pubDate>Tue, 06 Aug 2024 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/blog/line_bot/</guid>
+      <description>&lt;h4 id=&#34;簡介&#34;&gt;簡介：&lt;/h4&gt;&#xA;&lt;p&gt;LINE Bot 建立完整教學：&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://medium.com/@drose01rrr/2024-line-bot-%E5%89%B5%E5%BB%BA%E6%AD%A5%E9%A9%9F-589227edd42c&#34;&gt;https://medium.com/@drose01rrr/2024-line-bot-%E5%89%B5%E5%BB%BA%E6%AD%A5%E9%A9%9F-589227edd42c&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Blockchain 研究</title>
+      <link>https://yifunlin.github.io/blog/blockchain/</link>
+      <pubDate>Mon, 03 Jun 2024 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/blog/blockchain/</guid>
+      <description>&lt;h4 id=&#34;簡介&#34;&gt;簡介：&lt;/h4&gt;&#xA;&lt;iframe src=&#34;https://hackmd.io/@Linnn/S1LihkWma&#34; width=&#34;100%&#34; height=&#34;700&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>[2024 IThome 鐵人賽]LLM 應用、開發框架、RAG優化及評估方法系列 - GAI 爆炸時代 </title>
+      <link>https://yifunlin.github.io/blog/ithome_rag/</link>
+      <pubDate>Thu, 03 Aug 2023 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/blog/ithome_rag/</guid>
+      <description>&lt;h4 id=&#34;簡介&#34;&gt;簡介：&lt;/h4&gt;&#xA;&lt;p&gt;在這邊跟大家分享一下，我在 2024 年去比 IThome 鐵人賽，連續 30 天產出的文章！&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ithelp.ithome.com.tw/users/20168537/ironman/7263&#34;&gt;https://ithelp.ithome.com.tw/users/20168537/ironman/7263&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tronclass下載未開放的檔案與影片</title>
+      <link>https://yifunlin.github.io/blog/tronclass/</link>
+      <pubDate>Thu, 03 Aug 2023 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/blog/tronclass/</guid>
+      <description>&lt;h4 id=&#34;簡介&#34;&gt;簡介：&lt;/h4&gt;&#xA;&lt;p&gt;有些老師都不開放PPT下載，這樣要怎麼做筆記呢！來教大家如何在 Tronclass 下載未開放的檔案與影片&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://hackmd.io/@Linnn/Syuvp1ww3&#34; width=&#34;100%&#34; height=&#34;700&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terraform on 林羿帆-個人網站</title>
+    <link>https://yifunlin.github.io/tags/terraform/</link>
+    <description>Recent content in Terraform on 林羿帆-個人網站</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Aug 2025 13:49:23 +0600</lastBuildDate>
+    <atom:link href="https://yifunlin.github.io/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>從無到有：用 Terraform 與 GitOps 打造企業級 n8n 自動化流程引擎</title>
+      <link>https://yifunlin.github.io/blog/terraform/</link>
+      <pubDate>Wed, 06 Aug 2025 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/blog/terraform/</guid>
+      <description>&lt;h4 id=&#34;簡介&#34;&gt;簡介：&lt;/h4&gt;&#xA;&lt;p&gt;Terraform 是什麼？白話來說，它就是利用宣告式的方式，把所有需要的雲端資源，像是 VM、K8s cluster、網路設定，全部寫成程式碼方式去進行部署，可以省去學習各種雲端服務商所提供UI的時間，大幅增進開發效率！&lt;/p&gt;&#xA;&lt;p&gt;我有將這篇投稿至我們 LINE 官方的 Blog 進行分享，快來看看吧！&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

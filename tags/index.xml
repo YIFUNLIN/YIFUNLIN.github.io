@@ -6,8 +6,22 @@
     <description>Recent content in Tags on 林羿帆-個人網站</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Aug 2025 02:27:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Aug 2025 13:49:23 +0600</lastBuildDate>
     <atom:link href="https://yifunlin.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes</title>
+      <link>https://yifunlin.github.io/tags/kubernetes/</link>
+      <pubDate>Wed, 06 Aug 2025 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terraform</title>
+      <link>https://yifunlin.github.io/tags/terraform/</link>
+      <pubDate>Wed, 06 Aug 2025 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/tags/terraform/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Event-Driven</title>
       <link>https://yifunlin.github.io/tags/event-driven/</link>
@@ -37,13 +51,6 @@
       <description></description>
     </item>
     <item>
-      <title>DevOps</title>
-      <link>https://yifunlin.github.io/tags/devops/</link>
-      <pubDate>Tue, 05 Aug 2025 01:59:00 +0800</pubDate>
-      <guid>https://yifunlin.github.io/tags/devops/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Docker</title>
       <link>https://yifunlin.github.io/tags/docker/</link>
       <pubDate>Tue, 05 Aug 2025 01:59:00 +0800</pubDate>
@@ -51,52 +58,31 @@
       <description></description>
     </item>
     <item>
-      <title>Kubernetes</title>
-      <link>https://yifunlin.github.io/tags/kubernetes/</link>
-      <pubDate>Tue, 05 Aug 2025 01:59:00 +0800</pubDate>
-      <guid>https://yifunlin.github.io/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>雲端原生</title>
-      <link>https://yifunlin.github.io/tags/%E9%9B%B2%E7%AB%AF%E5%8E%9F%E7%94%9F/</link>
-      <pubDate>Tue, 05 Aug 2025 01:59:00 +0800</pubDate>
-      <guid>https://yifunlin.github.io/tags/%E9%9B%B2%E7%AB%AF%E5%8E%9F%E7%94%9F/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Game</title>
-      <link>https://yifunlin.github.io/tags/game/</link>
+      <title>Design Pattern</title>
+      <link>https://yifunlin.github.io/tags/design-pattern/</link>
       <pubDate>Tue, 17 Jun 2025 19:30:47 +0800</pubDate>
-      <guid>https://yifunlin.github.io/tags/game/</guid>
+      <guid>https://yifunlin.github.io/tags/design-pattern/</guid>
       <description></description>
     </item>
     <item>
-      <title>New</title>
-      <link>https://yifunlin.github.io/tags/new/</link>
+      <title>Job</title>
+      <link>https://yifunlin.github.io/tags/job/</link>
       <pubDate>Tue, 17 Jun 2025 19:30:47 +0800</pubDate>
-      <guid>https://yifunlin.github.io/tags/new/</guid>
+      <guid>https://yifunlin.github.io/tags/job/</guid>
       <description></description>
     </item>
     <item>
-      <title>Photos</title>
-      <link>https://yifunlin.github.io/tags/photos/</link>
-      <pubDate>Tue, 17 Jun 2025 19:30:47 +0800</pubDate>
-      <guid>https://yifunlin.github.io/tags/photos/</guid>
+      <title>Computer Visions</title>
+      <link>https://yifunlin.github.io/tags/computer-visions/</link>
+      <pubDate>Wed, 06 Nov 2024 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/tags/computer-visions/</guid>
       <description></description>
     </item>
     <item>
-      <title>Python</title>
-      <link>https://yifunlin.github.io/tags/python/</link>
-      <pubDate>Tue, 17 Jun 2025 19:30:47 +0800</pubDate>
-      <guid>https://yifunlin.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>React</title>
-      <link>https://yifunlin.github.io/tags/react/</link>
-      <pubDate>Tue, 17 Jun 2025 19:30:47 +0800</pubDate>
-      <guid>https://yifunlin.github.io/tags/react/</guid>
+      <title>GAI</title>
+      <link>https://yifunlin.github.io/tags/gai/</link>
+      <pubDate>Thu, 03 Aug 2023 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/tags/gai/</guid>
       <description></description>
     </item>
   </channel>

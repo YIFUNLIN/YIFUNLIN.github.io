@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GAI on 林羿帆-個人網站</title>
+    <link>https://yifunlin.github.io/tags/gai/</link>
+    <description>Recent content in GAI on 林羿帆-個人網站</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Aug 2023 13:49:23 +0600</lastBuildDate>
+    <atom:link href="https://yifunlin.github.io/tags/gai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[2024 IThome 鐵人賽]LLM 應用、開發框架、RAG優化及評估方法系列 - GAI 爆炸時代 </title>
+      <link>https://yifunlin.github.io/blog/ithome_rag/</link>
+      <pubDate>Thu, 03 Aug 2023 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/blog/ithome_rag/</guid>
+      <description>&lt;h4 id=&#34;簡介&#34;&gt;簡介：&lt;/h4&gt;&#xA;&lt;p&gt;在這邊跟大家分享一下，我在 2024 年去比 IThome 鐵人賽，連續 30 天產出的文章！&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ithelp.ithome.com.tw/users/20168537/ironman/7263&#34;&gt;https://ithelp.ithome.com.tw/users/20168537/ironman/7263&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

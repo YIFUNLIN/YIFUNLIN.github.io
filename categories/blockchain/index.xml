@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blockchain on 林羿帆-個人網站</title>
+    <link>https://yifunlin.github.io/categories/blockchain/</link>
+    <description>Recent content in Blockchain on 林羿帆-個人網站</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jun 2024 13:49:23 +0600</lastBuildDate>
+    <atom:link href="https://yifunlin.github.io/categories/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blockchain 研究</title>
+      <link>https://yifunlin.github.io/blog/blockchain/</link>
+      <pubDate>Mon, 03 Jun 2024 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/blog/blockchain/</guid>
+      <description>&lt;h4 id=&#34;簡介&#34;&gt;簡介：&lt;/h4&gt;&#xA;&lt;iframe src=&#34;https://hackmd.io/@Linnn/S1LihkWma&#34; width=&#34;100%&#34; height=&#34;700&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+  </channel>
+</rss>
