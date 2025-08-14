@@ -3,7 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yifunlin.github.io/categories/</loc>
-    <lastmod>2025-08-06T13:49:23+06:00</lastmod>
+    <lastmod>2025-08-14T13:49:23+06:00</lastmod>
+  </url><url>
+    <loc>https://yifunlin.github.io/categories/knative/</loc>
+    <lastmod>2025-08-14T13:49:23+06:00</lastmod>
+  </url><url>
+    <loc>https://yifunlin.github.io/blog/knative_kustomization/</loc>
+    <lastmod>2025-08-14T13:49:23+06:00</lastmod>
+  </url><url>
+    <loc>https://yifunlin.github.io/categories/kustomization/</loc>
+    <lastmod>2025-08-14T13:49:23+06:00</lastmod>
+  </url><url>
+    <loc>https://yifunlin.github.io/</loc>
+    <lastmod>2025-08-14T13:49:23+06:00</lastmod>
   </url><url>
     <loc>https://yifunlin.github.io/categories/infra/</loc>
     <lastmod>2025-08-06T13:49:23+06:00</lastmod>
@@ -18,9 +30,6 @@
     <lastmod>2025-08-06T13:49:23+06:00</lastmod>
   </url><url>
     <loc>https://yifunlin.github.io/blog/terraform/</loc>
-    <lastmod>2025-08-06T13:49:23+06:00</lastmod>
-  </url><url>
-    <loc>https://yifunlin.github.io/</loc>
     <lastmod>2025-08-06T13:49:23+06:00</lastmod>
   </url><url>
     <loc>https://yifunlin.github.io/tags/event-driven/</loc>
