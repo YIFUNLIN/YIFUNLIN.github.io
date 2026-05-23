@@ -1,0 +1,5 @@
+.DS_Store
+.hugo_build.lock
+
+# Hugo generated image cache. Keep published images under images/ and public/images/.
+resources/_gen/images/

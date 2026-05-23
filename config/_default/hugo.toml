@@ -1,0 +1,8 @@
+######################## default configuration ####################
+baseURL = "https://yifunlin.github.io/"
+languageCode = "zh-tw"
+title = "林羿帆-個人網站"
+theme = "liva-hugo"
+summaryLength = 10
+pagination.pagerSize = 6
+disqusShortname = ""

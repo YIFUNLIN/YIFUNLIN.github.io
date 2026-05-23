@@ -6,8 +6,15 @@
     <description>Recent content in Categories on 林羿帆-個人網站</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Aug 2025 13:49:23 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 08 Feb 2026 13:49:23 +0600</lastBuildDate>
     <atom:link href="https://yifunlin.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Share</title>
+      <link>https://yifunlin.github.io/categories/share/</link>
+      <pubDate>Sun, 08 Feb 2026 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/categories/share/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Knative</title>
       <link>https://yifunlin.github.io/categories/knative/</link>

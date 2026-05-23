@@ -6,8 +6,22 @@
     <description>Recent content in blog on 林羿帆-個人網站</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Aug 2025 13:49:23 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 08 Feb 2026 13:49:23 +0600</lastBuildDate>
     <atom:link href="https://yifunlin.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>從好奇到上線：一群實習生，在 LINE 寫下的真實成長紀錄</title>
+      <link>https://yifunlin.github.io/blog/line-%E5%A4%A5%E4%BC%B4%E5%80%91%E5%AF%A6%E7%BF%92%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Sun, 08 Feb 2026 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/blog/line-%E5%A4%A5%E4%BC%B4%E5%80%91%E5%AF%A6%E7%BF%92%E5%BF%83%E5%BE%97/</guid>
+      <description>&lt;h4 id=&#34;簡介&#34;&gt;簡介：&lt;/h4&gt;&#xA;&lt;p&gt;我與 LINE 夥伴們的生活紀錄&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://techblog.lycorp.co.jp/zh-hant/techfresh-2025&#34; width=&#34;100%&#34; height=&#34;700&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>中央大學資訊工程學系-企業參訪講者</title>
+      <link>https://yifunlin.github.io/blog/%E4%B8%AD%E5%A4%AE%E8%B3%87%E5%B7%A5%E4%BC%81%E6%A5%AD%E5%8F%83%E8%A8%AA%E4%B8%BB%E8%AC%9B/</link>
+      <pubDate>Thu, 27 Nov 2025 13:49:23 +0600</pubDate>
+      <guid>https://yifunlin.github.io/blog/%E4%B8%AD%E5%A4%AE%E8%B3%87%E5%B7%A5%E4%BC%81%E6%A5%AD%E5%8F%83%E8%A8%AA%E4%B8%BB%E8%AC%9B/</guid>
+      <description>&lt;h4 id=&#34;簡介&#34;&gt;簡介：&lt;/h4&gt;&#xA;&lt;p&gt;有幸擔任中央資工企業參訪講者，來跟同學們分享一下這10多個月在 LINE 的生活！&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://techblog.lycorp.co.jp/zh-hant/backend-intern&#34; width=&#34;100%&#34; height=&#34;700&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
     <item>
       <title>Knative 和 kustomization 介紹</title>
       <link>https://yifunlin.github.io/blog/knative_kustomization/</link>
