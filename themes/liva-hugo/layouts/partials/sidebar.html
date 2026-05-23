@@ -7,7 +7,17 @@
       {{ if .Params.Image }}
         {{ partial "image.html" (dict "Src" .Params.Image "Alt" "Image" "Class" "img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4" ) }}
       {{ end }}
-      <p>{{ .Summary | truncate 150}}</p>
+      <div class="about-profile-summary">
+        {{- with .Params.profile_name }}
+        <p>我是 <strong>{{ . }}</strong></p>
+        {{- end }}
+        {{- if and .Params.profile_company .Params.profile_role }}
+        <p>目前在 <strong>{{ .Params.profile_company }}</strong> 擔任 <strong>{{ .Params.profile_role }}</strong></p>
+        {{- end }}
+        {{- with .Params.profile_interests }}
+        <p><strong>興趣</strong>：{{ . }}</p>
+        {{- end }}
+      </div>
       <a href="{{ .Permalink }}" class="btn btn-outline-primary">Know More</a>
       {{ end }}
     </div>

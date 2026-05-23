@@ -18,10 +18,10 @@
 | 網站標題、baseURL | `config/_default/hugo.toml` |
 | 作者、社群連結、全站參數 | `hugo.toml` |
 | 圖片來源 | `assets/images/`、`images/` |
-| Hugo 產出資料夾 | `public/` |
+| Hugo 暫存產出資料夾 | `public/` 或 `/private/tmp/...` |
 | 根目錄靜態輸出 | `about/`、`blog/`、`categories/`、`tags/`、`scss/`、`images/` 等 |
 
-目前這個 repo 有追蹤部分靜態輸出，所以修改後通常需要一起 commit 來源檔與產出檔。
+目前這個 repo 的 GitHub Pages 是從根目錄服務，因此修改後需要 commit「來源檔」以及「根目錄靜態輸出」。`public/` 是本機暫存產物，已放進 `.gitignore`，不要 commit。
 
 ## 二、修改前先做的事
 
@@ -303,14 +303,16 @@ http://localhost:1313/
 hugo
 ```
 
-執行後 Hugo 會更新：
+執行後 Hugo 預設會更新：
 
 ```text
 public/
 resources/_gen/assets/
 ```
 
-若有修改 CSS，也會更新：
+`public/` 不需要 commit。若只是快速本機檢查可以使用 `hugo`；若要準備部署，建議用下一節的乾淨輸出流程，避免 `public/` 殘留舊頁。
+
+若有修改 CSS，Hugo 也會更新：
 
 ```text
 public/scss/style.min.css
@@ -318,42 +320,41 @@ public/scss/style.min.css
 
 ## 八、同步根目錄靜態輸出
 
-這個 repo 除了 `public/`，也有根目錄靜態輸出，例如：
+這個 repo 的正式部署檔案在根目錄，例如：
 
 ```text
 about/index.html
 scss/style.min.css
 ```
 
-因此修改後要視情況同步。
-
-### 修改 About 頁後
+建議每次要部署前都用乾淨暫存目錄產生完整靜態輸出：
 
 ```bash
-cp public/about/index.html about/index.html
+DEPLOY_DIR=$(mktemp -d /private/tmp/yifan-public.XXXXXX)
+hugo -d "$DEPLOY_DIR"
+rsync -a "$DEPLOY_DIR"/ ./
 ```
 
-### 修改 CSS 後
+同步後檢查是否還有舊的破版片段或本機網址：
 
 ```bash
-cp public/scss/style.min.css scss/style.min.css
+rg -n '<p><h2|localhost:1313' --glob '*.html' --glob '!public/**' --glob '!themes/**' .
 ```
 
-### 修改 Blog 後
+如果你刪除文章、分類或標籤，根目錄可能殘留舊靜態頁。可用下列流程找出「根目錄有，但乾淨 build 已經沒有」的 HTML：
 
-Hugo 會更新較多檔案，常見包含：
-
-```text
-public/blog/
-public/categories/
-public/tags/
-public/index.html
-public/index.json
-public/index.xml
-public/sitemap.xml
+```bash
+find "$DEPLOY_DIR" -name '*.html' -print | sed "s#$DEPLOY_DIR/##" | sort > /tmp/new-html-list
+find . -path './.git' -prune -o -path './public' -prune -o -path './themes' -prune -o -name '*.html' -print | sed 's#^./##' | sort > /tmp/root-html-list
+comm -23 /tmp/root-html-list /tmp/new-html-list
 ```
 
-如果根目錄也有對應資料夾，部署前要確認根目錄版本也有更新。
+確認列表都是舊產物後，再移除：
+
+```bash
+comm -23 /tmp/root-html-list /tmp/new-html-list > /tmp/stale-generated-files
+git rm --pathspec-from-file=/tmp/stale-generated-files
+```
 
 ## 九、Commit 建議流程
 
@@ -392,19 +393,19 @@ Blog 新增或修改常見要加入：
 ```bash
 git add \
   content/english/blog/文章檔名.md \
-  public/blog \
-  public/categories \
-  public/tags \
-  public/index.html \
-  public/index.json \
-  public/index.xml \
-  public/sitemap.xml
+  blog \
+  categories \
+  tags \
+  index.html \
+  index.json \
+  index.xml \
+  sitemap.xml
 ```
 
 若文章有新增圖片，也要加入對應圖片：
 
 ```bash
-git add images/圖片檔名.png public/images/圖片檔名.png
+git add images/圖片檔名.png
 ```
 
 ### 3. Commit
@@ -432,7 +433,7 @@ git push
 可能原因：
 
 - 沒有執行 `hugo`
-- 沒有同步 `public/...` 到根目錄對應檔案
+- 沒有把乾淨 build 同步到根目錄
 - 瀏覽器快取
 - GitHub Pages 還沒部署完成
 
@@ -450,7 +451,6 @@ rg -n "圖片檔名" public about blog categories tags
 
 ```text
 images/圖片檔名.png
-public/images/圖片檔名.png
 ```
 
 ### 3. CSS 改了但畫面沒變
@@ -465,8 +465,9 @@ scss/style.min.css
 若只改了 SCSS，記得：
 
 ```bash
-hugo
-cp public/scss/style.min.css scss/style.min.css
+DEPLOY_DIR=$(mktemp -d /private/tmp/yifan-public.XXXXXX)
+hugo -d "$DEPLOY_DIR"
+rsync -a "$DEPLOY_DIR"/ ./
 ```
 
 ### 4. Git 出現很多不相關檔案
@@ -488,7 +489,8 @@ git status --short
 ```gitignore
 .DS_Store
 .hugo_build.lock
+public/
 resources/_gen/images/
 ```
 
-不要把 `public/`、`images/`、`about/`、`scss/` 直接 ignore，因為目前部署流程可能需要這些靜態輸出檔案。
+不要把 `images/`、`about/`、`blog/`、`categories/`、`tags/`、`scss/` 直接 ignore，因為 GitHub Pages 目前會從根目錄讀這些靜態輸出檔案。
