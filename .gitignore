@@ -1,0 +1,9 @@
+.DS_Store
+.hugo_build.lock
+
+# Hugo output is generated locally. The GitHub Pages repo serves the
+# generated static files from the repository root, not from this folder.
+public/
+
+# Hugo generated image cache.
+resources/_gen/images/
